@@ -1,0 +1,36 @@
+/* Header.css */
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header__title {
+    margin: 0;
+}
+
+.header__nav {
+    margin-top: 20px;
+}
+
+.header__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header__item {
+    margin: 0 10px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__link:hover {
+    border-bottom: 2px solid #fff;
+}
