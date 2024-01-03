@@ -1,7 +1,7 @@
 // App.js
 
 import React from 'react';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.css'
 
 import Header from './components/Header/Header'
@@ -13,7 +13,7 @@ import CardItem from "./components/CardItem/CardItem";
 
 const App = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <div>
         <Header />
 
@@ -26,7 +26,7 @@ const App = () => {
         </Routes>
 
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
